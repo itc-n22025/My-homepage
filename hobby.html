@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <!-- <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors"> -->
+    <meta name="generator" content="Hugo 0.83.1">
+    <title>HOBBY</title>
+
+    <link rel="canonical" href="https://getbootstrap.jp/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href=https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#7952b3">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <!-- ハンバーガーメニュー -->
+    <link href="/css/carousel.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/5-1-14.css">
+
+    <!-- スライドショー -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/6-1-7.css">
+  </head>
+  <body>
+    
+<header>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="hobby.html">HOBBY</a>
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> -->
+          <!-- <span class="navbar-toggler-icon"></span> -->
+        </button>
+      </div>
+    </nav>
+  
+    <div class="openbtn"><span></span><span></span><span></span></div>
+      <nav id="g-nav">
+        <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
+          <ul>
+          <li><a href="index.html">Top</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="work.html">Work</a></li> 
+          <li><a href="skill.html">Skill</a></li>
+          <li><a href="strengths.html">Strengths</a></li> 
+          <li><a href="hobby.html">Hobby</a></li> 
+        </ul>
+      </div>
+    </nav>
+  
+  </header>
+  
+  <main>
+  
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <!-- <div class="carousel-indicators"> -->
+        <!-- <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+      </div>
+        <ul class="slider">
+          <li><img src="imags/古宇利大橋.jpg" alt=""></li>
+          <li><img src="imags/ワルミ大橋.jpg" alt=""></li>
+          <li><img src="imags/夕焼け.jpg" alt=""></li>
+          <li><img src="imags/海.jpg" alt=""></li>
+          <!-- <li><img src="img/img_05.jpg" alt=""></li> -->
+          <!--/slider-->
+        </ul>
+      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+    </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <!-- 下記に入力 -->
+    <div class="b-example-divider"></div>
+
+  <div class="container px-4 py-5" id="hanging-icons">
+    <h2>趣味</h2>
+    <p class="pb-2 border-bottom">ここではプロフィールで紹介した趣味を詳しく紹介します。</p>
+    <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
+        </div>
+       <div>
+          <h2>趣味１・音楽を聞くこと</h2>
+          <p>私はいろんなジャンルの音楽を聞きますが一番聞くのは嵐です。嵐の曲で一番好きな曲は｢きっと大丈夫｣っていう曲です。</p>          
+          <!-- <a href="#" class="btn btn-primary">
+            Primary button
+          </a> -->
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"/></svg>
+        </div>
+        <div>
+          <h2>趣味２・ゲーム</h2>
+          <p>昔からゲームが好きで、今だったら｢パズドラ｣｢モンハン｣｢星のカービィ｣にハマっています。</p>
+          <!-- <a href="#" class="btn btn-primary">
+            Primary button
+          </a> -->
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"/></svg>
+        </div>
+        <div>
+          <h2>趣味３・筋トレ</h2>
+          <p>趣味っていうよりも習慣。初めたのは１０月ごろ。お腹周りが出始めてきて流石にまずいなと思い初めました。</p>
+          <!-- <a href="#" class="btn btn-primary">
+            Primary button
+          </a> -->
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2023 Jun</p>
+  </footer>
+</main>
+
+
+  <!-- ハンバーガーメニュー -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!--自作のJS-->
+  <script src="js/5-1-14.js"></script>
+
+  <!-- スライドショー -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!--自作のJS-->
+  <script src="js/6-1-7.js"></script>
+  </body>
+</html>
